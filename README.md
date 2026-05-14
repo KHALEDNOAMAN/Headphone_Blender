@@ -94,4 +94,4 @@ This project is for personal/educational use. Feel free to use it as a learning 
 
 ---
 
-*Made with ❤️ in Blender*
+*Made in Blender*
