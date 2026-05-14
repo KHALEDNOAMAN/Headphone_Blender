@@ -92,6 +92,3 @@ Big thanks for the clear and detailed walkthrough — highly recommend it to any
 
 This project is for personal/educational use. Feel free to use it as a learning reference.
 
----
-
-*Made in Blender*
