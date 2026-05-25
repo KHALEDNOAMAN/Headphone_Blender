@@ -1,94 +1,69 @@
-# 🎧 Headphones 3D Model — Blender Project
+# ðŸŽ§ 3D Headphone Model â€” Blender Project
 
-A detailed 3D model of over-ear headphones created in **Blender 4.1**, featuring custom materials, procedural textures, and PBR shading.
+![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
+![3D](https://img.shields.io/badge/3D_Modeling-222222?style=for-the-badge&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
----
-
-## 📸 Preview
-
-<!-- Replace with your actual render image -->
-![Headphones Render](render.png)
+> **A photorealistic 3D headphone model created in Blender â€” featuring detailed modeling, PBR texturing, studio lighting, and high-quality rendering.**
 
 ---
 
-## 🛠️ Project Details
+## ðŸŽ¯ Overview
 
-| Property | Details |
-|----------|---------|
-| **Software** | Blender 4.1 |
-| **File** | `untitled.blend` |
-| **Render Engine** | Cycles |
-| **Shading** | Principled BSDF (PBR) |
+This project showcases a fully modeled, textured, and rendered 3D headphone designed in Blender. The focus is on achieving photorealistic quality through precise mesh modeling, physically-based rendering (PBR) materials, and professional studio lighting setups.
 
----
+## âœ¨ Features
 
-## 🎨 Materials
+- ðŸŽ¨ **Detailed Modeling** â€” Accurate headphone geometry with smooth topology
+- ðŸ–Œï¸ **PBR Texturing** â€” Realistic materials (plastic, leather, metal, mesh fabric)
+- ðŸ’¡ **Studio Lighting** â€” Professional 3-point lighting setup for product visualization
+- ðŸ“¸ **High-Quality Renders** â€” Production-ready output images
+- ðŸ”„ **Clean Topology** â€” Optimized mesh for smooth subdivision surfaces
 
-The model uses three custom materials:
+## ðŸ› ï¸ Tools Used
 
-- **`base`** — Main headband and frame structure (green matte finish)
-- **`speaker`** — Speaker driver and grille details
-- **`Material.mesh`** — Ear cushion mesh with procedural texture using Magic Texture + Bump nodes
+| Tool | Version | Purpose |
+|------|---------|---------|
+| Blender | 3.x+ | 3D modeling, texturing, rendering |
+| Cycles | â€” | Physically-based ray tracing renderer |
 
-### Shader Setup
-The ear cushion material uses a node-based shader with:
-- **Texture Coordinate** → **Mapping** → **Magic Texture** for procedural surface detail
-- **Bump** node for surface normal variation
-- **Principled BSDF** for physically-based rendering
+## ðŸš€ Getting Started
 
----
+### Prerequisites
+- [Blender](https://www.blender.org/download/) (version 3.0 or later)
 
-## 📁 File Structure
+### How to Open
+```bash
+# Clone the repository
+git clone https://github.com/KHALEDNOAMAN/Headphone_Blender.git
 
-```
-📦 blender-headphones/
- ┣ 📄 untitled.blend      # Main Blender project file
- ┣ 📄 README.md           # This file
- ┗ 📄 .gitignore          # Excludes temp files
+# Open the .blend file in Blender
+blender Headphone_Blender/*.blend
 ```
 
----
+### Rendering
+1. Open the `.blend` file in Blender
+2. Go to **Render Properties** panel
+3. Select **Cycles** as the render engine
+4. Press **F12** to render the scene
 
-## 🚀 Getting Started
+## ðŸ“ Project Structure
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   ```
+```
+Headphone_Blender/
+â”œâ”€â”€ *.blend          # Main Blender project file
+â”œâ”€â”€ textures/        # PBR texture maps (if applicable)
+â”œâ”€â”€ renders/         # Final rendered images
+â””â”€â”€ README.md
+```
 
-2. **Open in Blender:**
-   - Launch Blender 4.1 or later
-   - Go to `File → Open` and select `untitled.blend`
+## ðŸ“„ License
 
-3. **Render the scene:**
-   - Press `F12` to render, or go to `Render → Render Image`
+This project is licensed under the MIT License.
 
----
+## ðŸ‘¤ Author
 
-## ⚙️ Requirements
+**Khaled Noaman** â€” Computer Engineering Student & 3D Artist
 
-- [Blender 4.1+](https://www.blender.org/download/) (free & open source)
-
----
-
-## 📌 Notes
-
-- The project uses only Blender's built-in procedural textures — no external texture files needed.
-- Render settings may need adjustment depending on your hardware (GPU vs CPU rendering).
-
----
-
-## 🙏 Credits
-
-This project was made following this amazing tutorial:
-
-> 📺 **[Product Design in Blender: Headphones [Full Process]](https://youtu.be/p2iloupX7S8?si=Gfft859pEPVeHKPe)** by **Derek Elliott**
-
-Big thanks for the clear and detailed walkthrough — highly recommend it to anyone learning product design in Blender!
-
----
-
-## 📄 License
-
-This project is for personal/educational use. Feel free to use it as a learning reference.
-
+- [GitHub](https://github.com/KhaledNoaman)
+- [LinkedIn](https://www.linkedin.com/in/khalednoaman1/)
